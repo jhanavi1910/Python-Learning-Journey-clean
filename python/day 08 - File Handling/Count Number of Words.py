@@ -1,0 +1,6 @@
+file=open("data.txt","r")
+data=file.read()
+print(data)
+x=data.split()
+print("number of words is: ",len(x))
+file.close()

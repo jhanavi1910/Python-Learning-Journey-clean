@@ -1,0 +1,8 @@
+file=open("notes.txt","r")
+x=file.readline()
+print(x)
+x=file.readline()
+print(x)
+x=file.readline()
+print(x)
+file.close()

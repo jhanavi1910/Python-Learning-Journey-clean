@@ -1,0 +1,7 @@
+print("enter the student details\n")
+name=str(input("enter the student name:"))
+branch=str(input("enter the branch name:"))
+age=int(input("enter the student age:"))
+college=str(input("enter college name:"))
+roll_no=int(input("enter student's rollno:"))
+print("the student details are\n",name,branch,age,college,roll_no)

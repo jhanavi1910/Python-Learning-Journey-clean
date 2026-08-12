@@ -9,7 +9,7 @@ class Vehicle:
 class Car(Vehicle):
     def __init__(self, brand, model):
         super().__init__(brand)
-        self.model = model
+        self.model = model 
 
     def display(self):
         self.show_brand()

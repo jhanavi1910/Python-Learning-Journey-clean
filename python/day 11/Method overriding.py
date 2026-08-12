@@ -5,7 +5,7 @@ class Animal:
 
 class Dog(Animal):
     def sound(self):
-        print("Dog barks")
+        print("Dog barks") 
 
 
 d = Dog()

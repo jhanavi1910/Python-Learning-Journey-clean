@@ -9,7 +9,7 @@ class Mother:
 
 
 class Child(Father, Mother):
-    def child_property(self):
+    def child_property(self): 
         print("Child owns a bicycle")
 
 

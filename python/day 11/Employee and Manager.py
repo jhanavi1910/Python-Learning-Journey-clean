@@ -10,7 +10,7 @@ class Manager(Employee):
         self.department = department
 
     def display(self):
-        print("Name:", self.name)
+        print("Name:", self.name) 
         print("Salary:", self.salary)
         print("Department:", self.department)
 

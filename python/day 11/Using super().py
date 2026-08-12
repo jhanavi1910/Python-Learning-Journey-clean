@@ -5,7 +5,7 @@ class Parent:
 
 class Child(Parent):
     def display(self):
-        super().display()
+        super().display() 
         print("This is the child class")
 
 
